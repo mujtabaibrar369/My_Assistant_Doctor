@@ -1,0 +1,14 @@
+# Ignore Virtual Environment
+venv/
+.env
+__pycache__/
+
+# Ignore Large Packages
+*.whl
+*.tar.gz
+*.zip
+
+# Ignore CUDA and Other Libraries
+cuda/
+torch/
+tensorflow/
